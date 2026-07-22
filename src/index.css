@@ -1,0 +1,37 @@
+/* Google Fonts import must be at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --color-brand-green: #145E41;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F9FAFB; /* bg-gray-50 */
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #145E41;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f4631;
+}
+
+/* Antigravity class styling */
+.physics-body {
+  position: absolute !important;
+  pointer-events: auto !important;
+  will-change: transform;
+}
