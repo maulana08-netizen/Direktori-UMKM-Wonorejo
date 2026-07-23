@@ -24,12 +24,9 @@ export default function UMKMGrid({ items }) {
       {/* Grid count summary */}
       <div className="flex items-center justify-between mb-6 text-sm text-gray-500">
         <p className="font-medium">
-          Menampilkan <span className="text-brand-green font-bold">{items.length}</span> pelaku usaha
+          Menampilkan <span className="text-amber-700 font-bold">{items.length}</span> pelaku usaha
         </p>
-        <div className="flex items-center text-xs">
-          <HelpCircle className="w-3.5 h-3.5 text-gray-400 mr-1" />
-          <span>Klik logo 5x untuk easter egg</span>
-        </div>
+        
       </div>
 
       {/* Responsive Grid */}

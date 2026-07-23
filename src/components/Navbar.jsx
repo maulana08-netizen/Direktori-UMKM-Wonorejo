@@ -24,12 +24,12 @@ export default function Navbar({ onTriggerGravity, isGravityActive, onResetGravi
             className="flex items-center space-x-3 cursor-pointer select-none group"
             title="Klik 5 kali untuk Easter Egg rahasia!"
           >
-            <div className="w-10 h-10 rounded-xl bg-brand-green flex items-center justify-center text-white shadow-md shadow-emerald-200 transition-transform duration-300 group-hover:scale-105">
+            <div className="w-10 h-10 rounded-xl bg-amber-700 flex items-center justify-center text-white shadow-md shadow-stone-800 transition-transform duration-300 group-hover:scale-105">
               <Store className="w-5 h-5" />
             </div>
             <div>
               <span className="font-heading text-lg sm:text-xl font-bold text-gray-800 tracking-tight">
-                UMKM <span className="text-brand-green">Wonorejo</span>
+                UMKM <span className="text-amber-700">Wonorejo</span>
               </span>
               <p className="text-[10px] text-gray-400 font-medium -mt-1">Direktori Interaktif Desa</p>
             </div>
@@ -54,8 +54,8 @@ export default function Navbar({ onTriggerGravity, isGravityActive, onResetGravi
             )}
             <div className="md:hidden">
               {/* Simple Mobile Tag */}
-              <span className="text-xs bg-emerald-50 text-brand-green font-semibold px-2.5 py-1 rounded-full border border-emerald-100">
-                Wonorejo, Malang
+              <span className="text-xs bg-amber-50 text-amber-700 font-semibold px-2.5 py-1 rounded-full border border-amber-600">
+                Wonorejo, Kab. Pasuruan
               </span>
             </div>
           </div>

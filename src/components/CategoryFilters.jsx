@@ -20,19 +20,19 @@ export default function CategoryFilters({
   // Helper for category-specific colors
   const getCategoryStyles = (name, isActive) => {
     if (isActive) {
-      return "bg-[#145E41] text-white border-[#145E41] shadow-lg shadow-emerald-100 scale-105";
+      return "bg-amber-700 text-white border-amber-700 shadow-lg shadow-amber-700 scale-105";
     }
 
-    const baseClass = "bg-white hover:bg-gray-50 text-gray-700 border-gray-200 hover:border-[#145E41]/50 hover:text-[#145E41] shadow-sm";
+    const baseClass = "bg-white hover:bg-gray-50 text-gray-700 border-gray-200 hover:border-amber-500 hover:text-amber-500 shadow-sm";
     
     // Add subtle pastel color borders on hover for premium feel
     switch (name) {
-      case "Makanan": return `${baseClass} hover:border-orange-300 hover:bg-orange-50/30`;
-      case "Minuman": return `${baseClass} hover:border-sky-300 hover:bg-sky-50/30`;
-      case "Jasa": return `${baseClass} hover:border-purple-300 hover:bg-purple-50/30`;
-      case "Fashion": return `${baseClass} hover:border-pink-300 hover:bg-pink-50/30`;
+      case "Makanan": return `${baseClass} hover:border-amber-300 hover:bg-orange-50/30`;
+      case "Minuman": return `${baseClass} hover:border-amber-300 hover:bg-sky-50/30`;
+      case "Jasa": return `${baseClass} hover:border-amber-300 hover:bg-purple-50/30`;
+      case "Fashion": return `${baseClass} hover:border-amber-300 hover:bg-pink-50/30`;
       case "Pedagang": return `${baseClass} hover:border-amber-300 hover:bg-amber-50/30`;
-      case "Peternakan": return `${baseClass} hover:border-teal-300 hover:bg-teal-50/30`;
+      case "Peternakan": return `${baseClass} hover:border-amber-300 hover:bg-teal-50/30`;
       default: return baseClass;
     }
   };
@@ -64,7 +64,7 @@ export default function CategoryFilters({
       {/* Sub-Categories (rendered conditionally if they exist for the active category) */}
       {subCategories.length > 0 && (
         <div className="bg-emerald-50/40 border border-emerald-100/50 rounded-2xl p-4 sm:p-5 mb-4 animate-fade-in">
-          <div className="text-[11px] font-bold text-emerald-800 uppercase tracking-widest mb-3">Sub Kategori</div>
+          <div className="text-[11px] font-bold text-stone-700 uppercase tracking-widest mb-3">Sub Kategori</div>
           <div className="flex flex-wrap gap-2">
             {subCategories.map((sub) => {
               // Standardize sub selection (if "Semua Sub", map logic checks if selectedSubCategory is "Semua Sub" or matches)
@@ -75,8 +75,8 @@ export default function CategoryFilters({
                   onClick={() => setSelectedSubCategory(sub)}
                   className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all duration-200 cursor-pointer border ${
                     isActive
-                      ? "bg-white text-brand-green border-brand-green shadow-sm font-semibold"
-                      : "bg-transparent text-emerald-700 border-transparent hover:bg-white/60 hover:text-brand-green"
+                      ? "bg-white text-amber-700 border-amber-700 shadow-sm font-semibold"
+                      : "bg-transparent text-stone-800 border-gray-300 hover:bg-white/60 hover:text-amber-500 hover:border-amber-500"
                   }`}
                 >
                   {sub}

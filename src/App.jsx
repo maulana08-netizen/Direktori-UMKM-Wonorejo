@@ -89,7 +89,7 @@ export default function App() {
         {/* Interactive Grid Header */}
         <div className="gravity-item max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 select-none">
           <div className="flex items-center gap-2 border-b border-gray-100 pb-3">
-            <Compass className="w-5 h-5 text-brand-green" />
+            <Compass className="w-5 h-5 text-amber-700" />
             <h2 className="font-heading text-xl font-extrabold text-gray-800">
               {selectedCategory === 'Semua' ? 'Semua Daftar UMKM' : `Kategori ${selectedCategory}`}
             </h2>

@@ -35,7 +35,7 @@ export default function Footer({ onTriggerGravity, isGravityActive }) {
             Jam buka: Senin - Jumat (07.00 - 15.00)
           </p>
           <div className="flex space-x-3 pt-2">
-            <a href="https://wonorejo.pasuruankab.go.id" target="_blank" rel="noopener noreferrer" className="text-emerald-500 hover:text-emerald-400 text-xs font-semibold flex items-center gap-1">
+            <a href="https://wonorejo.pasuruankab.go.id" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-emerald-400 text-xs font-semibold flex items-center gap-1">
               <Globe className="w-3.5 h-3.5" />
               <span>Website Resmi Kecamatan Wonorejo</span>
             </a>
@@ -49,9 +49,7 @@ export default function Footer({ onTriggerGravity, isGravityActive }) {
       {/* Bottom Row */}
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <p className="flex items-center gap-1 font-light">
-          <span>&copy; 2026 Pemerintah Desa Wonorejo. Dibuat dengan</span>
-          <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-          <span>untuk kemajuan ekonomi desa.</span>
+          <span>&copy; 2026 KKN 109 UINSA Desa Wonorejo.</span>
         </p>
 
         {/* Secret Easter Egg Link inside footer */}
@@ -62,8 +60,8 @@ export default function Footer({ onTriggerGravity, isGravityActive }) {
               className="text-gray-700 hover:text-emerald-500 transition-colors flex items-center gap-1.5 cursor-pointer font-medium"
               title="Aktifkan simulasi fisika"
             >
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Rahasia Gravitasi</span>
+              
+              <span>(Alivia Nasywa, Maulana Rafi, Amilia Tussoimah)</span>
             </button>
           )}
           <span className="text-[10px] text-gray-600">v1.2.0</span>

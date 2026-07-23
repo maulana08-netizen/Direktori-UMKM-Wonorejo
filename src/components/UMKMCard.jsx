@@ -39,13 +39,13 @@ export default function UMKMCard({ item }) {
             {item.subCategory !== "Umum" ? item.subCategory : ""}
           </span>
           <div className="flex items-center text-xs text-gray-500 font-medium">
-            <MapPin className="w-3.5 h-3.5 text-brand-green mr-1 flex-shrink-0" />
+            <MapPin className="w-3.5 h-3.5 text-stone-700 mr-1 flex-shrink-0" />
             <span className="truncate">{item.dusun}</span>
           </div>
         </div>
 
         {/* UMKM Name */}
-        <h3 className="font-heading text-base sm:text-lg font-bold text-gray-800 line-clamp-1 mb-2 hover:text-brand-green transition-colors">
+        <h3 className="font-heading text-base sm:text-lg font-bold text-gray-800 line-clamp-1 mb-2 hover:text-amber-700 transition-colors">
           {item.name}
         </h3>
 
@@ -59,7 +59,7 @@ export default function UMKMCard({ item }) {
           href={item.mapsUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-auto w-full border border-gray-200 hover:border-brand-green text-gray-700 hover:text-white hover:bg-brand-green font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm"
+          className="mt-auto w-full border border-gray-200 hover:border-amber-700 text-gray-700 hover:text-white hover:bg-amber-700 font-bold py-2.5 px-4 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm"
         >
           <span>Buka di Google Maps</span>
           <ExternalLink className="w-3.5 h-3.5 flex-shrink-0" />
