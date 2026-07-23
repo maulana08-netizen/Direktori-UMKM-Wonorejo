@@ -45,7 +45,7 @@ export default function UMKMCard({ item }) {
         </div>
 
         {/* UMKM Name */}
-        <h3 className="font-heading text-base sm:text-lg font-bold text-gray-800 line-clamp-1 mb-2 hover:text-amber-700 transition-colors">
+        <h3 className="font-heading text-base sm:text-lg font-bold text-gray-800 line-clamp-1 mb-2 hover:text-brand-green transition-colors">
           {item.name}
         </h3>
 

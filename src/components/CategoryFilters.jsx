@@ -63,7 +63,7 @@ export default function CategoryFilters({
 
       {/* Sub-Categories (rendered conditionally if they exist for the active category) */}
       {subCategories.length > 0 && (
-        <div className="bg-emerald-50/40 border border-emerald-100/50 rounded-2xl p-4 sm:p-5 mb-4 animate-fade-in">
+        <div className="bg-amber-50/40 border border-amber-100/50 rounded-2xl p-4 sm:p-5 mb-4 animate-fade-in">
           <div className="text-[11px] font-bold text-stone-700 uppercase tracking-widest mb-3">Sub Kategori</div>
           <div className="flex flex-wrap gap-2">
             {subCategories.map((sub) => {

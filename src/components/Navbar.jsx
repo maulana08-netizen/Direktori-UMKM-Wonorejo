@@ -54,7 +54,7 @@ export default function Navbar({ onTriggerGravity, isGravityActive, onResetGravi
             )}
             <div className="md:hidden">
               {/* Simple Mobile Tag */}
-              <span className="text-xs bg-amber-50 text-amber-700 font-semibold px-2.5 py-1 rounded-full border border-amber-600">
+              <span className="text-xs bg-amber-50 text-amber-700 font-semibold px-1.5 py-1 rounded-full border border-amber-600">
                 Wonorejo, Kab. Pasuruan
               </span>
             </div>

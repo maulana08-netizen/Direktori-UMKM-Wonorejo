@@ -94,7 +94,7 @@ export default function App() {
               {selectedCategory === 'Semua' ? 'Semua Daftar UMKM' : `Kategori ${selectedCategory}`}
             </h2>
             {selectedSubCategory !== 'Semua Sub' && selectedCategory !== 'Semua' && (
-              <span className="bg-emerald-50 text-brand-green text-xs font-semibold px-2.5 py-0.5 rounded-full border border-emerald-100 uppercase tracking-wider">
+              <span className="bg-amber-50 text-amber-500 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-amber-100 uppercase tracking-wider">
                 {selectedSubCategory}
               </span>
             )}

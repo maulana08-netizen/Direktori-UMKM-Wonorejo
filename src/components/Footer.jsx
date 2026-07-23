@@ -57,14 +57,14 @@ export default function Footer({ onTriggerGravity, isGravityActive }) {
           {!isGravityActive && (
             <button
               onClick={onTriggerGravity}
-              className="text-gray-700 hover:text-emerald-500 transition-colors flex items-center gap-1.5 cursor-pointer font-medium"
+              className="text-stone-1000 hover:text-amber-500 transition-colors flex items-center gap-1.5 cursor-pointer font-medium"
               title="Aktifkan simulasi fisika"
             >
               
-              <span>(Alivia Nasywa, Maulana Rafi, Amilia Tussoimah)</span>
+              <span>Created by: Alivia Nasywa, Maulana Rafi, Amilia Tussoimah</span>
             </button>
           )}
-          <span className="text-[10px] text-gray-600">v1.2.0</span>
+          <span className="text-[10px] text-amber-600">v1.2.0</span>
         </div>
       </div>
     </footer>
