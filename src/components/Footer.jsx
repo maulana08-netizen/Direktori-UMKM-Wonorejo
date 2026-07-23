@@ -35,7 +35,7 @@ export default function Footer({ onTriggerGravity, isGravityActive }) {
             Jam buka: Senin - Jumat (07.00 - 15.00)
           </p>
           <div className="flex space-x-3 pt-2">
-            <a href="https://wonorejo.pasuruankab.go.id" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-emerald-400 text-xs font-semibold flex items-center gap-1">
+            <a href="https://wonorejo.pasuruankab.go.id" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-amber-400 text-xs font-semibold flex items-center gap-1">
               <Globe className="w-3.5 h-3.5" />
               <span>Website Resmi Kecamatan Wonorejo</span>
             </a>
